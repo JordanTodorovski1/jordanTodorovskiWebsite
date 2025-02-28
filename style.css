@@ -14,56 +14,57 @@
   font-family: "Montserrat";
 }
 #logo a {
-    color: #fa8072 !important;
-    text-decoration: none;
-    transition: color 0.3s ease-in-out;
-  }
-  
-  #logo a:hover {
-    color: #ff6347; /* Slightly darker salmon */
-  }
-  
-  #nameish {
-    font-weight: bolder;
-    font-size: 1.5rem;
-  }
-  
-  .nav {
-    background-color: #36454f;
-    color: #fa8072;
-    width: 100%;
-    height: 70px;
-  }
-  
-  .nav a {
-    color: #fa8072;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease-in-out, transform 0.2s;
-  }
-  
-  .nav a:hover {
-    color: #ffffff; /* White on hover */
-    transform: scale(1.1); /* Slight zoom effect */
-  }
-  
-  .nav-btn {
-    color: #fa8072 !important;
-    background-color: #6b879a;
-    margin-bottom: 0;
-    padding: 10px 20px;
-    border-radius: 20px;
-    transition: background-color 0.3s ease-in-out, transform 0.2s;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  
-  .nav-btn:hover {
-    background-color: #fa8072; /* Change background on hover */
-    color: #36454f !important; /* White text */
-    transform: scale(1.1); /* Slight zoom effect */
-  }
-  
+  color: #fa8072 !important;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+#logo a:hover {
+  color: #ff6347; /* Slightly darker salmon */
+}
+
+#nameish {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.nav {
+  background-color: #36454f;
+  color: #fa8072;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+}
+
+.nav a {
+  color: #fa8072;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out, transform 0.2s;
+}
+
+.nav a:hover {
+  color: #ffffff; /* White on hover */
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+.nav-btn {
+  color: #fa8072 !important;
+  background-color: #6b879a;
+  margin-bottom: 0;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease-in-out, transform 0.2s;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.nav-btn:hover {
+  background-color: #fa8072; /* Change background on hover */
+  color: #36454f !important; /* White text */
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
 img {
   max-width: 100%;
 }
@@ -76,7 +77,9 @@ main {
   margin: 0px;
   text-align: start !important;
 }
-
+#my_photo {
+  padding-top: 70px;
+}
 h1 {
   font-size: 90px !important;
 }
@@ -113,14 +116,11 @@ a {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  transition: transform 0.3s ease-in-out;
-
 }
 .skill:hover {
-    transform: scale(1.3);
-    background-color: #fff;
+  transform: scale(1.3);
+  background-color: #fff;
   background-color: #17232b;
-
 }
 .skill > img {
   width: 50%;
@@ -149,7 +149,7 @@ a {
 .paragrafce,
 #nameish,
 .final-text {
-    text-align: start;
+  text-align: start;
   width: 0; /* Start hidden */
   overflow: hidden;
   white-space: nowrap;
@@ -164,13 +164,15 @@ a {
 }
 
 #nameish {
-  animation: typing 1.5s steps(12) forwards 1s, blink 0.8s steps(2) 2.5s forwards;
+  animation: typing 1.5s steps(12) forwards 1s,
+    blink 0.8s steps(2) 2.5s forwards;
   font-size: 2em;
   animation-fill-mode: forwards;
 }
 
 .final-text {
-  animation: typing 1.5s steps(12) forwards 2.5s, blink 0.8s steps(2) 4s forwards;
+  animation: typing 1.5s steps(12) forwards 2.5s,
+    blink 0.8s steps(2) 4s forwards;
   font-size: 1.2em;
   animation-fill-mode: forwards;
 }
@@ -196,9 +198,8 @@ a {
   }
 }
 .banner-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centers text */
-    text-align: center;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers text */
+  text-align: center;
+}
