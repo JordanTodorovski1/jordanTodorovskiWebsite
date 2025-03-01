@@ -87,14 +87,15 @@ h1 {
   font-size: 90px !important;
 }
 #ab-me,
-#skillsHeader {
+#skillsHeader,#pr-title {
   font-size: 50px;
   text-align: center;
+  color: #fa8072 !important;
+
 }
 #about-me {
   color: #fa8072;
   background-color: #36454f;
-  padding: 150px 0;
 }
 .card,
 .acc-title {
@@ -211,4 +212,11 @@ a {
 }
 #projects {
   background-color: #36454f;
+}
+.card {
+  margin-left: 30px 0;
+}
+.card-img-top {
+  max-width: 100%;
+  height: 150px;
 }
