@@ -270,3 +270,42 @@ a {
   top: 1600px;
   color: #6b879a;
 }
+@media (max-width: 768px) {
+  #list {
+    display: none !important;
+  }
+  .nav {
+    display: block;
+  }
+  #hamburger {
+    display: block !important;
+  }
+  h1 {
+    font-size: 50px !important;
+  }
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-ab {
+    font-size: 1.0rem;
+  }
+  #ab-me-inner {
+    width: 90% !important;
+    margin: 0 auto;
+  }
+  .banner-text {
+    margin-top: 20%;
+  }
+  #cont-skill {
+    width: 100%;
+    text-align: center;
+  }
+  #stopAnimaton {
+    left: 20%;
+    right: 20%;
+  }
+  .firstRowSkill {
+    /* transform: scale(0.6); */
+  }
+}
