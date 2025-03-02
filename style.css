@@ -309,8 +309,8 @@ a {
     left: 20%;
     right: 20%;
   }
-  .firstRowSkill {
-    /* transform: scale(0.6); */
+  .MobileSkills {
+    transform: scale(0.8);
   }
   #MobileNav a {
     color: #fa8072 !important;
