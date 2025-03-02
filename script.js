@@ -42,3 +42,6 @@ document.getElementById("hamburger").onclick = function () {
     mobileNav.innerHTML = "";
   }
 };
+window.onload = function(){
+  window.location.hash = ""
+}

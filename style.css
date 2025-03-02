@@ -306,6 +306,7 @@ a {
     text-align: center;
   }
   #stopAnimaton {
+    position:inherit;
     left: 20%;
     right: 20%;
   }
